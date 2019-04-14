@@ -24,4 +24,4 @@ for k in range(1, 200):
 
 
 result = pd.DataFrame([scores], columns= cols).sort_values(ascending=False, axis= 1, by=[0])
-print(p[result.idxmax(axis=1)])
+print(result)
